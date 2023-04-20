@@ -1,0 +1,9 @@
+#I created a launch file 'autonomous_vehicle_speed.launch' inside the launch folder of the package. 
+#In this file, we will specify the parameters 'speed_limit' and 'plate_number' and launch both the publisher and subscriber nodes. 
+#The code for the launch file is shown below
+
+<launch>
+    <param name="speed_limit" value="60" type="double"/>
+    <param name="plate_number" value="ABC123"/>
+    <node name="vehicle_speed
+
